@@ -1,0 +1,228 @@
+
+/*----------------------------------------
+Name: global.css
+Developed by: Amjadkhan Pathan
+Date Created:17/04/2011
+Last Updated:17/04/2011
+Copyright:eShcock IT Solutions
+----------------------------------------*/
+
+/* Imports
+----------------------------------------*/
+
+@import url("/css/externalLinks.css");
+
+
+/* Elements
+----------------------------------------*/
+body
+{
+	background:  #000 url(../images/background_2.jpg) repeat-x;
+	color: #000;
+	font: 90%/1  Georgia, "Times New Roman", Times, serif,"DejaVu Sans", "URW Gothic L", "Helvetica Neue", Helvetica, Arial, "Microsoft Sans Serif", sans-serif;
+	line-height:1.5em;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	margin: 0 0 .5em;
+	color:  #06F;
+}
+h1 { font-size: 200%; }
+h2 { font-size: 180%; }
+h3 { font-size: 160%; }
+h4 { font-size: 140%; }
+h5 { font-size: 120%; }
+h6 { font-size: 100%; }
+
+p
+{
+	margin: 0 0 1.5em;
+	line-height: 1.4;
+}
+
+
+
+
+/* Classes reset adjustments
+--------------------------------------------*/
+
+
+
+.content ol
+{
+	line-height: 1.4;
+	padding: 0 0 1.5em 40px;
+}
+
+.content ul
+{
+	line-height: 1.4;
+	padding: 0 0 1.5em 20px;
+}
+
+.content li { margin: 0 0 .3em; }
+
+.content ul li
+{
+	padding: 0 0 0 20px;
+	background: url(../images/bullet.gif) no-repeat 0 .3em;
+}
+
+/* Layout
+-----------------------------------------------------------*/
+/* -----------------------------------
+layout
+----------------------------------- */
+
+.container
+{
+	width: 980px;
+	margin: 0 auto;
+/*	background-color:#999;*/
+}
+
+.header { 
+	padding: 0 5px 0; 
+ }
+ 
+ .logo {margin:0 0;
+padding:0 0;
+
+}
+.logo img
+{
+	
+		display:inline;
+		margin:0 20%;
+		text-align:center;
+		width:620px;
+		height:141px;
+		overflow:hidden;
+		
+}
+
+
+ 
+ /* Primary Navigation */
+.primary-nav {  
+
+padding:0;
+margin:5px;
+width:950px; 
+text-align:center;
+
+}
+.primary-nav ul {
+	margin:0;
+	padding:0; }
+	
+.primary-nav  li { 
+	margin:0;
+	padding:0;
+	display:inline;
+	overflow:hidden;
+}
+.primary-nav a{
+	display:inline-block;
+	width:155px;
+	height:32px;
+	background:url(../images/back_button.png) no-repeat 0px 0px;
+	font-size: 20px;
+	text-decoration:none;
+	color:white;
+
+}
+
+
+.content-container
+{
+	clear: both;
+	padding: 20px 0 0;
+	margin:0;
+	background-color:#d8d3d3;
+	overflow:hidden;
+}
+
+.slideshow
+{
+	border: thick black solid;
+	overflow:hidden;
+	width:580px;
+	height:360px;
+	clear:both;
+}
+.section-nav
+{
+	float: left;
+	width: 180px;
+	
+	margin-right:10px;
+}
+.section-nav ul
+{
+	margin:0;
+	padding:0;
+}
+.section-nav ul li
+{
+	display:inline;
+	overflow:hidden;
+
+}
+.section-nav ul li a
+{
+	display:block;
+	text-decoration:none;
+	text-align:right;
+	font-size:16px;
+	color:#000;
+	margin-bottom:10px;
+	padding:10px 5px 10px 5px;
+	width:90%;
+	height:20px;
+	background:url(../images/sub_nav_back.png) no-repeat  top left;
+	overflow:hidden;
+}
+
+.content
+{
+	float: left;
+	width: 750px;
+	padding-left:10px;
+}
+
+.footer { 
+	
+	clear: both; 
+ color:#aaa;
+ text-align:center;
+ margin:0;
+ padding:0;
+ background:#CCC  url(../images/footer_back.png) repeat-x;
+
+ 
+  }
+.footer ul
+{
+	margin:0;
+	padding:0;
+}
+.footer li
+{
+	display:inline;
+}
+.footer li a
+{
+	 text-decoration:none;
+ 
+}
+
+
+.gutter { margin-left: 10px; }
+/* Accesibility
+-----------------------------------------*/
+.structural {
+    left: -500em;
+    position: absolute;
+}
