@@ -12,3 +12,6 @@
 
     You should have received a copy of the GNU General Public License
     along with eco_zed.  If not, see <http://www.gnu.org/licenses/>.
+	
+Should you have any other questions or suggestions please contact the author on 
+Email : amjad1233@gmail.com
